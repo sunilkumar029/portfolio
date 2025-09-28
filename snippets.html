@@ -1,0 +1,205 @@
+<!--
+        - #PORTFOLIO
+      -->
+
+<article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+    <!-- Filter Buttons -->
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Web Apps</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Mobile Apps</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Branding</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Design Concepts</button>
+      </li>
+    </ul>
+
+    <!-- Dropdown Filter (For Mobile) -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Web Apps</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Mobile Apps</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Branding</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Design Concepts</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Project List -->
+    <ul class="project-list">
+      <!-- Web Apps -->
+      <li class="project-item active" data-filter-item data-category="web apps">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/statewiser.png"
+              alt="State Wiser"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">State Wiser</h3>
+          <p class="project-category">Web App · Data Analysis & AI Tools</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web apps">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/colorcraftpro.png"
+              alt="Color Craft Pro"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">Color Craft Pro</h3>
+          <p class="project-category">Web App · AI Color Tool</p>
+        </a>
+      </li>
+
+      <!-- Mobile Apps -->
+      <li
+        class="project-item active"
+        data-filter-item
+        data-category="mobile apps"
+      >
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/forexApp.jpg"
+              alt="Forex Signal Advisor"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">Forex Signal Advisor</h3>
+          <p class="project-category">Mobile App · React Native</p>
+        </a>
+      </li>
+
+      <!-- Branding -->
+      <li class="project-item active" data-filter-item data-category="branding">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/bug_blooms.png"
+              alt="Bug Blooms"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">Bug Blooms</h3>
+          <p class="project-category">Branding · Illustration</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="branding">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/vm.png" alt="VM Brand" loading="lazy" />
+          </figure>
+          <h3 class="project-title">VM Brand</h3>
+          <p class="project-category">Branding · Concept</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="branding">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/urban_sprouts.jpg"
+              alt="Urban Sprouts"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">Urban Sprouts</h3>
+          <p class="project-category">Branding · Illustration</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="branding">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/moonlight_diagnostics.jpg"
+              alt="Moon Light Diagnostics"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">Moon Light Diagnostics</h3>
+          <p class="project-category">Branding · Healthcare</p>
+        </a>
+      </li>
+
+      <!-- Design Concepts -->
+      <li
+        class="project-item active"
+        data-filter-item
+        data-category="design concepts"
+      >
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img
+              src="./assets/images/pdlc.jpg"
+              alt="PDLC in History"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="project-title">PDLC in History</h3>
+          <p class="project-category">Comic · Storytelling</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
